@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>VZARRIVAL</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Welcome to Verizon!</h3>
+  <h3>{{currentUser.firstName + ' ' + currentUser.lastName}}</h3>
+
+  <p>
+    When you arrive Verizon office, press Arrival button. You will get visitor code for checkin service.
+  </p>
+
+  <!--<button ion-button secondary menuToggle>Toggle Menu</button>-->
+  <div align="center">
+  <button ion-button color="theme" class="arrivalButton">Arrival</button><!--clear-->
+</div>
+</ion-content>
